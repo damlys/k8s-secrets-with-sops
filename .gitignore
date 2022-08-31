@@ -1,0 +1,15 @@
+# System
+.DS_Store
+*.bak
+*.swp
+*.tmp
+*~
+desktop.ini
+thumbs.db
+
+# IDE
+/.vscode
+/*.code-workspace
+
+# SOPS (decrypted Kubernetes secrets)
+*.secret.dec.yaml

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-envs
+data:
+  MYSQL_DATABASE: mydatabase
+  MYSQL_USER: myusername
