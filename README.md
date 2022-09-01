@@ -10,6 +10,12 @@ View secret
 sops --decrypt manifests/mysql-envs.secret.enc.yaml
 ```
 
+Apply secret
+
+```shell
+sops --decrypt manifests/mysql-envs.secret.enc.yaml | kubectl apply --filename=-
+```
+
 Edit secret
 
 ```shell
