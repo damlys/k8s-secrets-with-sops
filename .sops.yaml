@@ -2,4 +2,4 @@ creation_rules:
   # Kubernetes secrets
   - path_regex: \.secret\.(dec|enc)\.yaml$
     encrypted_regex: ^(data|stringData)$
-    gcp_kms: projects/gomod-0/locations/europe-central2/keyRings/sops/cryptoKeys/sops-key
+    gcp_kms: projects/damlys-general/locations/europe-central2/keyRings/mozilla-sops/cryptoKeys/public-examples
